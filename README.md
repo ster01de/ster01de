@@ -38,210 +38,210 @@
 ---
 
 ```
-╔════════════════════════════════════════════════════════════════════════════╗
-║ RELEASE.......: STEROI.DE-TERMINAL.v0.4.7-mass_trace                       ║
-║ TYPE..........: WEB-APPZ / TERMINAL / PORTFOLIO                            ║
-║ SUPPLIER......: mass_trace                    PACKAGER: mass_trace         ║
-║ PROTECTION....: none. curiosity only.                                      ║
-║ SIZE..........: 19.200+ lines // 1 file // 0 regrets                       ║
-║ DATE..........: 2025                          LANGUAGE: Vanilla JavaScript ║
-║ 3D ENGINE.....: Three.js / WebGL / Custom Shaders                          ║
-║ ANIMATION.....: GSAP / requestAnimationFrame  AUDIO...: Web Audio API      ║
-║ FONT..........: Press Start 2P                URL.....: https://steroi.de  ║
-╚════════════════════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════════╗
+║ RELEASE.......: STEROI.DE-TERMINAL.v0.4.7-mass_trace                     ║
+║ TYPE..........: WEB-APPZ / TERMINAL / PORTFOLIO                          ║
+║ SUPPLIER......: mass_trace                  PACKAGER: mass_trace         ║
+║ PROTECTION....: none. curiosity only.                                    ║
+║ SIZE..........: 19.200+ lines // 1 file // 0 regrets                     ║
+║ DATE..........: 2025                        LANGUAGE: Vanilla JavaScript ║
+║ 3D ENGINE.....: Three.js / WebGL / Custom Shaders                        ║
+║ ANIMATION.....: GSAP / requestAnimationFrame AUDIO..: Web Audio API      ║
+║ FONT..........: Press Start 2P              URL.....: https://steroi.de  ║
+╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
 ```
-┌────────────────────────────────────────────────────────────────────────────┐
-│░░░░░░░░░░░░░░░░░░░░░░░░ R E L E A S E   N O T E S ░░░░░░░░░░░░░░░░░░░░░░░░░│
-├────────────────────────────────────────────────────────────────────────────┤
-│                                                                            │
-│   130+ commands · 40+ visual effects · arcade games · synthesizers         │
-│   easter eggs · tarot · DOS emulator · crypto tools · port scanner         │
-│                                                                            │
-│   all crammed into one monolithic vanilla JS terminal.                     │
-│   no react. no vue. no frameworks. no excuses.                             │
-│                                                                            │
-│   this release is 100% working. no fakes, no trials, no bullshit.          │
-│   NFO scrolls, so does the terminal. type carefully.                       │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-```
-┌────────────────────────────────────────────────────────────────────────────┐
-│░░░░░░░░░░░░░░░░░░░░░░░ V I S U A L   E F F E C T S ░░░░░░░░░░░░░░░░░░░░░░░░│
-├────────────────────────────────────────────────────────────────────────────┤
-│                                                                            │
-│   $ matrix .............. you know exactly what this does                  │
-│   $ starfield ........... hyperspeed through space                         │
-│   $ particles ........... floating particle system                         │
-│   $ bokeh ............... dreamy light orbs                                │
-│   $ lightning ........... zeus would be proud                              │
-│   $ fireworks ........... click to launch                                  │
-│   $ city ................ 3D cyberpunk skyline                             │
-│   $ ocean ............... waves. very zen.                                 │
-│   $ snow3d .............. let it snow                                      │
-│   $ liquid .............. trippy fluid simulation                          │
-│   $ laser ............... pew pew pew                                      │
-│   $ gridscan3d .......... tron vibes                                       │
-│   $ vhs ................. tracking errors included                         │
-│   $ crt ................. scanlines for authenticity                       │
-│   $ smoke ............... atmospheric                                      │
-│   $ cell ................ conway would approve                             │
-│   $ storm ............... thunderstorm ambience                            │
-│   $ ascii ............... retro character rendering                        │
-│   $ mandelbrot .......... fractal explorer                                 │
-│                                                                            │
-│   PRO TIP: most effects support blend= modes                               │
-│   $ particles blend=screen  ·  $ bokeh blend=overlay                       │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────┐
+│                    R E L E A S E   N O T E S                             │
+├──────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│  130+ commands · 40+ visual effects · arcade games · synthesizers        │
+│  easter eggs · tarot · DOS emulator · crypto tools · port scanner        │
+│                                                                          │
+│  all crammed into one monolithic vanilla JS terminal.                    │
+│  no react. no vue. no frameworks. no excuses.                            │
+│                                                                          │
+│  this release is 100% working. no fakes, no trials, no bullshit.         │
+│  NFO scrolls, so does the terminal. type carefully.                      │
+│                                                                          │
+└──────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
 ```
-┌────────────────────────────────────────────────────────────────────────────┐
-│░░░░░░░░░░░░░░░░░░░░░░░░░ A R C A D E   G A M E S ░░░░░░░░░░░░░░░░░░░░░░░░░░│
-├────────────────────────────────────────────────────────────────────────────┤
-│                                                                            │
-│   $ tetris .............. the classic                                      │
-│   $ snake ............... nokia memories                                   │
-│   $ pong ................ the OG                                           │
-│   $ invaders ............ space invaders                                   │
-│   $ asteroids ........... atari classic                                    │
-│   $ breakout ............ brick breaker                                    │
-│   $ galaga .............. arcade legend                                    │
-│   $ dosgame ............. DOS game emulator                                │
-│                                                                            │
-├────────────────────────────────────────────────────────────────────────────┤
-│░░░░░░░░░░░░░░░░░░░░░░░ C R E A T I V E   T O O L S ░░░░░░░░░░░░░░░░░░░░░░░░│
-├────────────────────────────────────────────────────────────────────────────┤
-│                                                                            │
-│   $ synth ............... web audio synthesizer                            │
-│   $ etch ................ etch-a-sketch                                    │
-│   $ asciipaint .......... draw in ASCII                                    │
-│   $ equalizer ........... audio visualizer (8 modes)                       │
-│   $ spiral .............. hypnotic patterns                                │
-│                                                                            │
-├────────────────────────────────────────────────────────────────────────────┤
-│░░░░░░░░░░░░░░░░░░░░░░░░░░░░ U T I L I T I E S ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│
-├────────────────────────────────────────────────────────────────────────────┤
-│                                                                            │
-│   $ calc ................ calculator                                       │
-│   $ json format ......... JSON formatter                                   │
-│   $ hash ................ SHA256, MD5, etc.                                │
-│   $ uuid ................ generate UUIDs                                   │
-│   $ base64 .............. encode/decode                                    │
-│   $ qr .................. QR code generator                                │
-│   $ speedtest ........... test your connection                             │
-│   $ ping ................ ping hosts                                       │
-│   $ nmap ................ port scanner                                     │
-│   $ crypto .............. live crypto prices                               │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────┐
+│                  V I S U A L   E F F E C T S                             │
+├──────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│  $ matrix .............. you know exactly what this does                 │
+│  $ starfield ........... hyperspeed through space                        │
+│  $ particles ........... floating particle system                        │
+│  $ bokeh ............... dreamy light orbs                               │
+│  $ lightning ........... zeus would be proud                             │
+│  $ fireworks ........... click to launch                                 │
+│  $ city ................ 3D cyberpunk skyline                            │
+│  $ ocean ............... waves. very zen.                                │
+│  $ snow3d .............. let it snow                                     │
+│  $ liquid .............. trippy fluid simulation                         │
+│  $ laser ............... pew pew pew                                     │
+│  $ gridscan3d .......... tron vibes                                      │
+│  $ vhs ................. tracking errors included                        │
+│  $ crt ................. scanlines for authenticity                      │
+│  $ smoke ............... atmospheric                                     │
+│  $ cell ................ conway would approve                            │
+│  $ storm ............... thunderstorm ambience                           │
+│  $ ascii ............... retro character rendering                       │
+│  $ mandelbrot .......... fractal explorer                                │
+│                                                                          │
+│  PRO TIP: most effects support blend= modes                              │
+│  $ particles blend=screen  ·  $ bokeh blend=overlay                      │
+│                                                                          │
+└──────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
 ```
-┌────────────────────────────────────────────────────────────────────────────┐
-│░░░░░░░░░░░░░░░░░░░░ E A S T E R   E G G S   &   F U N ░░░░░░░░░░░░░░░░░░░░░│
-├────────────────────────────────────────────────────────────────────────────┤
-│                                                                            │
-│   $ tarot ............... get your fortune read                            │
-│   $ fortune ............. fortune cookie                                   │
-│   $ cowsay .............. cow wisdom                                       │
-│   $ hollywood ........... hack the planet                                  │
-│   $ hackertype .......... look busy                                        │
-│   $ thanos .............. *snap*                                           │
-│   $ oneko ............... cat follows cursor                               │
-│   $ pipes ............... screensaver nostalgia                            │
-│   $ gta ................. wasted.                                          │
-│   $ rickroll ............ you know the rules                               │
-│   $ konami .............. ↑↑↓↓←→←→BA                                       │
-│                                                                            │
-│   100+ hidden triggers. band names. movie titles. memes.                   │
-│   the fake BSOD is very convincing.                                        │
-│   no, we won't tell you all of them.                                       │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────┐
+│                    A R C A D E   G A M E S                               │
+├──────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│  $ tetris .............. the classic                                     │
+│  $ snake ............... nokia memories                                  │
+│  $ pong ................ the OG                                          │
+│  $ invaders ............ space invaders                                  │
+│  $ asteroids ........... atari classic                                   │
+│  $ breakout ............ brick breaker                                   │
+│  $ galaga .............. arcade legend                                   │
+│  $ dosgame ............. DOS game emulator                               │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────┤
+│                  C R E A T I V E   T O O L S                             │
+├──────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│  $ synth ............... web audio synthesizer                           │
+│  $ etch ................ etch-a-sketch                                   │
+│  $ asciipaint .......... draw in ASCII                                   │
+│  $ equalizer ........... audio visualizer (8 modes)                      │
+│  $ spiral .............. hypnotic patterns                               │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────┤
+│                      U T I L I T I E S                                   │
+├──────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│  $ calc ................ calculator                                      │
+│  $ json format ......... JSON formatter                                  │
+│  $ hash ................ SHA256, MD5, etc.                               │
+│  $ uuid ................ generate UUIDs                                  │
+│  $ base64 .............. encode/decode                                   │
+│  $ qr .................. QR code generator                               │
+│  $ speedtest ........... test your connection                            │
+│  $ ping ................ ping hosts                                      │
+│  $ nmap ................ port scanner                                    │
+│  $ crypto .............. live crypto prices                              │
+│                                                                          │
+└──────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
 ```
-┌────────────────────────────────────────────────────────────────────────────┐
-│░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ T H E M E S ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│
-├────────────────────────────────────────────────────────────────────────────┤
-│                                                                            │
-│   $ theme neon .......... cyberpunk vibes                                  │
-│   $ theme retro ......... 80s aesthetic                                    │
-│   $ theme galaxy ........ space mode                                       │
-│   $ theme hacker ........ green on black                                   │
-│   $ theme sunset ........ warm gradients                                   │
-│   $ theme random ........ live dangerously                                 │
-│                                                                            │
-│   default · dark · neon · retro · galaxy · jungle · crazy                  │
-│   blue · bw · clean · hacker · sunset                                      │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────┐
+│                E A S T E R   E G G S   &   F U N                         │
+├──────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│  $ tarot ............... get your fortune read                           │
+│  $ fortune ............. fortune cookie                                  │
+│  $ cowsay .............. cow wisdom                                      │
+│  $ hollywood ........... hack the planet                                 │
+│  $ hackertype .......... look busy                                       │
+│  $ thanos .............. *snap*                                          │
+│  $ oneko ............... cat follows cursor                              │
+│  $ pipes ............... screensaver nostalgia                           │
+│  $ gta ................. wasted.                                         │
+│  $ rickroll ............ you know the rules                              │
+│  $ konami .............. up up down down left right left right B A       │
+│                                                                          │
+│  100+ hidden triggers. band names. movie titles. memes.                  │
+│  the fake BSOD is very convincing.                                       │
+│  no, we won't tell you all of them.                                      │
+│                                                                          │
+└──────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
 ```
-┌────────────────────────────────────────────────────────────────────────────┐
-│░░░░░░░░░░░░░░░░░░░░░░░░ I N S T A L L   N O T E S ░░░░░░░░░░░░░░░░░░░░░░░░░│
-├────────────────────────────────────────────────────────────────────────────┤
-│                                                                            │
-│   1. unpack (git clone / unzip)                                            │
-│   2. no keygen needed, no crack required                                   │
-│   3. run any local webserver:                                              │
-│                                                                            │
-│         $ python -m http.server 8000                                       │
-│         $ npx serve                                                        │
-│         $ php -S localhost:8000                                            │
-│                                                                            │
-│   4. open http://localhost:8000                                            │
-│   5. type 'help' and enjoy the release.                                    │
-│                                                                            │
-├────────────────────────────────────────────────────────────────────────────┤
-│░░░░░░░░░░░░░░░░░░░░░░░░ P R O J E C T   F I L E S ░░░░░░░░░░░░░░░░░░░░░░░░░│
-├────────────────────────────────────────────────────────────────────────────┤
-│                                                                            │
-│   index.html ............. entry point                                     │
-│   xbash.js ............... the monolith (all 19k lines)                    │
-│   boot.js ................ boot sequence & module loader                   │
-│   js/ .................... effect modules                                  │
-│   styles/ ................ themes & base CSS                               │
-│   content/ ............... portfolio text content                          │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────┐
+│                        T H E M E S                                       │
+├──────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│  $ theme neon .......... cyberpunk vibes                                 │
+│  $ theme retro ......... 80s aesthetic                                   │
+│  $ theme galaxy ........ space mode                                      │
+│  $ theme hacker ........ green on black                                  │
+│  $ theme sunset ........ warm gradients                                  │
+│  $ theme random ........ live dangerously                                │
+│                                                                          │
+│  default · dark · neon · retro · galaxy · jungle · crazy                 │
+│  blue · bw · clean · hacker · sunset                                     │
+│                                                                          │
+└──────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
 ```
-╔════════════════════════════════════════════════════════════════════════════╗
-║░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ G R E E T Z ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░║
-╠════════════════════════════════════════════════════════════════════════════╣
-║                                                                            ║
-║   to everyone who still builds weird shit on the internet                  ║
-║   to vanilla JS purists who refuse to npm install their way out            ║
-║   to anyone who found more than 50 easter eggs                             ║
-║   to the mass_trace detectives who read the source                         ║
-║                                                                            ║
-║   "we don't do boring."                                                    ║
-║                                                                            ║
-╠════════════════════════════════════════════════════════════════════════════╣
-║                                                                            ║
-║          https://steroi.de  ·  need@steroi.de  ·  Germany 2019             ║
-║                                                                            ║
-╚════════════════════════════════════════════════════════════════════════════╝
+┌──────────────────────────────────────────────────────────────────────────┐
+│                  I N S T A L L   N O T E S                               │
+├──────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│  1. unpack (git clone / unzip)                                           │
+│  2. no keygen needed, no crack required                                  │
+│  3. run any local webserver:                                             │
+│                                                                          │
+│        $ python -m http.server 8000                                      │
+│        $ npx serve                                                       │
+│        $ php -S localhost:8000                                           │
+│                                                                          │
+│  4. open http://localhost:8000                                           │
+│  5. type 'help' and enjoy the release.                                   │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────┤
+│                  P R O J E C T   F I L E S                               │
+├──────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│  index.html ............. entry point                                    │
+│  xbash.js ............... the monolith (all 19k lines)                   │
+│  boot.js ................ boot sequence & module loader                  │
+│  js/ .................... effect modules                                 │
+│  styles/ ................ themes & base CSS                              │
+│  content/ ............... portfolio text content                         │
+│                                                                          │
+└──────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+```
+╔══════════════════════════════════════════════════════════════════════════╗
+║                        G R E E T Z                                       ║
+╠══════════════════════════════════════════════════════════════════════════╣
+║                                                                          ║
+║  to everyone who still builds weird shit on the internet                 ║
+║  to vanilla JS purists who refuse to npm install their way out           ║
+║  to anyone who found more than 50 easter eggs                            ║
+║  to the mass_trace detectives who read the source                        ║
+║                                                                          ║
+║  "we don't do boring."                                                   ║
+║                                                                          ║
+╠══════════════════════════════════════════════════════════════════════════╣
+║                                                                          ║
+║         https://steroi.de  ·  need@steroi.de  ·  Germany 2019            ║
+║                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════╝
 ```
 
 <div align="center">
